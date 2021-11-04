@@ -8,11 +8,14 @@ public class practicw {
             System.out.println("not" + a);
         }
 
+        String k = "john";
+
 
         int num = 4;
         int factorial = 1;
         for (int i=num; i>0; i--)
         factorial = factorial * i;
+
 
         System.out.println(factorial);
     }
