@@ -15,9 +15,14 @@ public class practicw {
         int factorial = 1;
         for (int i=num; i>0; i--)
         factorial = factorial * i;
-
-
         System.out.println(factorial);
+
+        StringBuilder sb = new StringBuilder("vikram");
+        sb.append(" Singh");
+        System.out.println(sb);
+
+
+
     }
 }
 
